@@ -16,8 +16,8 @@
                         <h1 class="best-template animated" data-animation="fadeInUpShorter" data-animation-delay="1.5s">ARABIAN APE GROW</h1>
                         <h3 class="d-block white animated" data-animation="fadeInUpShorter" data-animation-delay="1.6s">The Next Generation of NFT Marketplace</h3>
                         <div class="mt-5">
-                            <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x570110D85FdB7aB0f52BddAE00C07bc91F7B406b" target="_blank" class="btn btn-lg btn-gradient-purple btn-glow mr-4 mb-2 animated" data-animation="fadeInUpShorter" data-animation-delay="1.7s">Buy on PancakeSwap</a>
-                            <a href="https://bscscan.com/token/0x570110D85FdB7aB0f52BddAE00C07bc91F7B406b" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s">BscScan Info</a>
+                            <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x028D0f26d327829A6B24E090C69f7d77922AAD8f" target="_blank" class="btn btn-lg btn-gradient-purple btn-glow mr-4 mb-2 animated" data-animation="fadeInUpShorter" data-animation-delay="1.7s">Buy on PancakeSwap</a>
+                            <a href="https://bscscan.com/token/0x028D0f26d327829A6B24E090C69f7d77922AAD8f" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s">BscScan Info</a>
                         </div>
                     </div>
                 </div>
@@ -95,7 +95,7 @@
 
                       <div style="-webkit-box-shadow: 0px 28px 28px -24px rgb(56 62 86 / 25%);box-shadow: 0px 28px 28px -24px rgb(56 62 86 / 25%);border-radius: 12px;padding: 16px 20px;text-decoration: none !important;display: block;">
                           <div class="text-center">
-                            <input type="text" value="0x570110D85FdB7aB0f52BddAE00C07bc91F7B406b" id="smartcontractaddress" readonly style="width:100%;text-align:center;color:#ffffff;background:none;border:none" />
+                            <input type="text" value="0x028D0f26d327829A6B24E090C69f7d77922AAD8f" id="smartcontractaddress" readonly style="width:100%;text-align:center;color:#ffffff;background:none;border:none" />
                           </div>
                           <button type="button" style="cursor: pointer;border-radius:15px;width:100%" class="btn btn-primary" onclick="copyContract()">
                               <span class="fa fa-copy"></span>
