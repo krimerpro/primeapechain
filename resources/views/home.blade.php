@@ -13,17 +13,27 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="banner-content pt-5">
-                        <h1 class="best-template animated" data-animation="fadeInUpShorter" data-animation-delay="1.5s">ARABIAN APE GROW</h1>
-                        <h3 class="d-block white animated" data-animation="fadeInUpShorter" data-animation-delay="1.6s">The Next Generation of NFT Marketplace</h3>
+                        <h1 class="best-template animated" data-animation="fadeInUpShorter" data-animation-delay="1.5s">PRIME APE CHAIN</h1>
+                        <h3 class="d-block white animated" data-animation="fadeInUpShorter" data-animation-delay="1.6s">The Next Gen Multi Proof Of Stake Blockchain With Fast And Scalable</h3>
                         <div class="mt-5">
-                            <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x6184A03Aa9193A9E7Cf539214A943d8Cc7D1f594" target="_blank" class="btn btn-lg btn-gradient-purple btn-glow mr-4 mb-2 animated" data-animation="fadeInUpShorter" data-animation-delay="1.7s">Buy on PancakeSwap</a>
-                            <a href="https://bscscan.com/token/0x6184A03Aa9193A9E7Cf539214A943d8Cc7D1f594" class="btn btn-lg btn-gradient-purple btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s">BscScan Info</a>
+                            <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x6184A03Aa9193A9E7Cf539214A943d8Cc7D1f594" target="_blank" class="btn btn-lg btn-gradient-blue btn-glow mr-4 mb-2 animated" data-animation="fadeInUpShorter" data-animation-delay="1.7s">Buy on PancakeSwap</a>
+                            <a href="https://bscscan.com/token/0x6184A03Aa9193A9E7Cf539214A943d8Cc7D1f594" class="btn btn-lg btn-gradient-blue btn-glow mb-2 animated" target="_blank" data-animation="fadeInUpShorter" data-animation-delay="1.8s">BscScan Info</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 move-first">
                     <div id="svg-animation">
-                        <img src="{{ asset('images/logo.png') }}" style="width:100%;height:100%;border-radius:50%;display: block;margin-left: auto;margin-right: auto;">
+                      <?php
+                        if($agent->isMobile()){
+                      ?>
+                            <img src="{{ asset('images/logo.png') }}" style="width:50%;height:50%;border-radius:50%;display: block;margin-left: auto;margin-right: auto;">
+                      <?php
+                    } else{
+                      ?>
+                            <img src="{{ asset('images/logo.png') }}" style="width:100%;height:100%;border-radius:50%;display: block;margin-left: auto;margin-right: auto;">
+                      <?php
+                    }
+                      ?>
                     </div>
                 </div>
             </div>
@@ -44,7 +54,7 @@
     </div>
     <div class="content-area" style="color:#ffffff">
         <div class="row">
-            <div class="col-md-6 col-lg-6">
+            <div class="col-md-12 col-lg-12">
                 <div style="margin-bottom:15px;border-bottom-style: solid;">
                     <h3 style="font-size:16px">Token Symbol</h3>
                     <h4 style="font-size:24px">AAG</h4>
@@ -55,13 +65,13 @@
                     <h4 style="font-size:24px">1.000.000.000.000.000</h4>
                 </div>
 
-                <div style="margin-bottom:15px;">
+                <div style="margin-bottom:15px;border-bottom-style: solid;">
                     <h3 style="font-size:16px">Decimals</h3>
                     <h4 style="font-size:24px">9</h4>
                 </div>
             </div>
 
-            <div class="col-md-6 col-lg-6">
+            <div class="col-md-12 col-lg-12">
                 <div style="margin-bottom:15px;border-bottom-style: solid;">
                     <h3 style="font-size:16px">Tax</h3>
                     <h4 style="font-size:24px">4% Buy | 4% Sell</h4>
@@ -72,9 +82,14 @@
                     <h4 style="font-size:24px">4%</h4>
                 </div>
 
-                <div style="margin-bottom:15px;">
+                <div style="margin-bottom:15px;border-bottom-style: solid;">
                     <h3 style="font-size:16px">Max Tx</h3>
                     <h4 style="font-size:24px">4%</h4>
+                </div>
+
+                <div style="margin-bottom:15px;">
+                    <h3 style="font-size:16px">Initial LP</h3>
+                    <h4 style="font-size:24px">2 BNB & 96% of Total Supply</h4>
                 </div>
             </div>
         </div>
@@ -124,19 +139,17 @@
     <div class="content-area">
         <div class="row">
             <div class="col-md-4 col-lg-4" style="border-right:solid;color:#ffffff">
-                <p style="color:#ffffff">Do you know why this arabian ape grow statue is widely displayed in business premises</p>
-                <p style="color:#ffffff">Well, a little review, this arabian ape grow statue is familiarly known as bored ape in NFTs world</p>
+                <p style="color:#ffffff">The Next Gen Multi Proof Of Stake Blockchain With Fast And Scalable</p>
+                <p style="color:#ffffff">Supported by a smart ecosystem that is made independently , PRIME APE CHAIN is the next generation in blockchain development technology in cryptocurrencies with full support with all access to the latest technology developed in the Blockchain world</p>
             </div>
 
             <div class="col-md-4 col-lg-4" style="border-right:solid;color:#ffffff">
-                <p style="color:#ffffff">This is where our inspiration to name our token ARABIAN APE GROW makes the cat of victory after the token's name</p>
-                <p style="color:#ffffff">We makes this motivation so that every holder can enjoy the profit from the name of this token</p>
-                <p style="color:#ffffff">NFT's (non fungible tokens) are a special type of cryptographic token which represents something unique; non-fungible tokens are thus not mutually interchangeable. We choose ARABIAN APE GROW for our platform because they are unique as NFTs.</p>
+                <p style="color:#ffffff">PRIME APE CHAIN is layer 1 the only decentralized blockchain and smart contract platform built for omnichain interoperability.</p>
+                <p style="color:#ffffff">We believe that all the best innovations will create good technology in the development of the Blockchain world in the web 4.0 era , Therefore PRIME APE CHAIN creates all use cases with Smart technology to synergize with the projects we develop</p>
             </div>
 
             <div class="col-md-4 col-lg-4">
-                <p style="color:#ffffff">On our website, anyone can make their own work or art and enter it into our NFT marketplace to be traded using ARABIAN APE GROW tokens</p>
-                <p style="color:#ffffff">This is the future for those of you who have a hobby or do work in the arts</p>
+                <p style="color:#ffffff">PRIME APE CHAIN is Layer 1 with Multi Proof Of Stake Consensus & trustworthy Decentralized Solution without a single point of failure</p>
             </div>
         </div>
     </div>
@@ -185,7 +198,7 @@
     <div class="row animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s">
         <div class="row">
             <div class="col-md-12 col-lg-12">
-                <img src="{{ asset('images/roadmap.jpeg') }}" style="width:100%;height:100%" >
+                <img src="{{ asset('images/roadmap.png') }}" style="width:100%;height:100%" >
             </div>
         </div>
 
@@ -219,7 +232,7 @@
     <div class="row animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s" style="text-align:center">
         <div class="row" style="margin:auto;width:100%">
             <div class="col-md-12">
-                <a href="https://t.me/ArabianApeGrow" target="_blank" class="btn btn-primary" style="background:white;color:#007BFF;font-size:16px;width:100%">
+                <a href="https://t.me/PrimeApeChain" target="_blank" class="btn btn-primary" style="background:white;color:#007BFF;font-size:16px;width:100%">
                     <img src="{{ asset('images/telegram.svg') }}" style="width:50px;height:50px" />
                     View on Telegram
                 </a>
@@ -230,7 +243,7 @@
     <div class="row animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s" style="text-align:center;margin-top:15px">
         <div class="row" style="margin:auto;width:100%">
             <div class="col-md-12">
-                <a href="https://twitter.com/ArabianApeGrow" target="_blank" class="btn btn-primary" style="background:white;color:#007BFF;font-size:16px;width:100%">
+                <a href="https://twitter.com/PrimeApeChain" target="_blank" class="btn btn-primary" style="background:white;color:#007BFF;font-size:16px;width:100%">
                     <img src="{{ asset('images/twitter.svg') }}" style="width:50px;height:50px" />
                     View on Twitter
                 </a>
@@ -241,7 +254,7 @@
     <div class="row animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s" style="text-align:center;margin-top:15px">
         <div class="row" style="margin:auto;width:100%">
             <div class="col-md-12">
-                <a href="mailto:arabianapegrow@gmail.com" target="_blank" class="btn btn-primary" style="background:white;color:#007BFF;font-size:16px;width:100%">
+                <a href="mailto:primeapechain@gmail.com" target="_blank" class="btn btn-primary" style="background:white;color:#007BFF;font-size:16px;width:100%">
                     <img src="{{ asset('images/gmail.svg') }}" style="width:50px;height:50px" />
                     Mail Us Directly
                 </a>

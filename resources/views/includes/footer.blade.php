@@ -18,7 +18,7 @@
     <div class="col-md-5 col-lg-5">&nbsp;</div>
 </div>
 <div class="copy-right mx-auto text-center">
-  <span class="copyright">Copyright &copy; 2022, ARABIAN APE GROW TEAM.</span>
+  <span class="copyright">Copyright &copy; 2022, PRIME APE CHAIN.</span>
 </div>
 </div>
 </div>
