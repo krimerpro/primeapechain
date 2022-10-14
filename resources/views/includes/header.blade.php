@@ -52,7 +52,7 @@
         </ul>
         <span id="slide-line"></span>
         <form class="form-inline mt-2 mt-md-0 text-right" style="margin-left:auto">
-            <a class="btn btn-sm btn-gradient-blue btn-glow my-2 my-sm-0 animated" data-animation="fadeInDown" data-animation-delay="1.8s" href="/nft">BLOCKCHAIN</a>
+            <a class="btn btn-sm btn-gradient-blue btn-glow my-2 my-sm-0 animated" data-animation="fadeInDown" data-animation-delay="1.8s" href="/#">BLOCKCHAIN</a>
         </form>
     </div>
 </div>
