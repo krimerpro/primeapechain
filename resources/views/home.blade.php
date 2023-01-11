@@ -89,7 +89,7 @@
 
                 <div style="margin-bottom:15px;">
                     <h3 style="font-size:16px">Initial LP</h3>
-                    <h4 style="font-size:24px">1 BNB & 96% of Total Supply</h4>
+                    <h4 style="font-size:24px">2 BNB & 96% Tokens</h4>
                 </div>
             </div>
         </div>
